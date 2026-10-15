@@ -97,7 +97,7 @@ security-examples:
 
 tests:
 	@echo "--> Running Terraform Tests"
-	@terraform test
+	@terraform test -test-directory=test
 
 validate:
 	@echo "--> Running terraform validate"
